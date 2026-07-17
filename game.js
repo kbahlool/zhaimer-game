@@ -1,4 +1,12 @@
-
+/*
+ * Zhaimer - The Ultimate Memory Card Game
+ * © 2026 Khalid Bahlool. All rights reserved.
+ * https://kbahlool.github.io/zhaimer-game/
+ * Contact: labgameskmb@gmail.com
+ *
+ * Unauthorized copying, modification, or redistribution of this file,
+ * via any medium, is strictly prohibited without prior written permission.
+ */
 
 /* ============================================================
    GAME LOGIC (pure reducer functions)
