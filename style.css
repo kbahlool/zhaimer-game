@@ -60,11 +60,9 @@
   .setup-card h2{font-family:Georgia,serif; letter-spacing:2px; color:var(--brass-soft); margin-top:0;}
 
   /* ---------- landing hero ---------- */
-  .landing-hero{ text-align:center; margin:clamp(6px,2vh,14px) auto 0; max-width:640px; }
-  .landing-hero-tagline{
-    font-size:11px; letter-spacing:3px; text-transform:uppercase; color:var(--muted);
-    margin-top:6px;
-  }
+  .header-landing{ margin-bottom:0; justify-content:flex-end; }
+  .landing-hero{ text-align:center; margin:0 auto; max-width:640px; }
+  .landing-hero-banner{ width:100%; max-width:520px; height:auto; display:block; margin:0 auto; }
   .landing-card{ padding-top:clamp(14px,3vh,22px); }
   .dest-title{
     text-align:center; font-family:Georgia,serif; letter-spacing:3px;

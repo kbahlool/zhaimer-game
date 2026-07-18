@@ -1578,6 +1578,16 @@ function screenHeader(subtitleOverride, showQuit, compact){
   </div>`;
 }
 
+function renderLandingHeader(){
+  return `<div class="header header-landing">
+    <div class="choice-group">
+      <button class="quit-btn" data-action="toggleSound" title="${t('soundBtn')}">${soundOn?'🔊':'🔇'}</button>
+      <button class="choice-btn ${LANG==='en'?'active':''}" data-action="setLang" data-val="en">EN</button>
+      <button class="choice-btn ${LANG==='ar'?'active':''}" data-action="setLang" data-val="ar">ع</button>
+    </div>
+  </div>`;
+}
+
 function renderLandingEmblem(){
   return `<img class="landing-emblem" src="assets/images/logo-full.webp" alt="Zhaimer" width="180" height="98" />`;
 }
@@ -1587,10 +1597,9 @@ function renderLanding(){
   if(!fbReady){
     fbNote = `<div class="setup-explainer" style="border-top:none;margin-top:14px;color:var(--crimson)">${t('firebaseMissing')}</div>`;
   }
-  return `${screenHeader(t('modeQuestion'))}
+  return `${renderLandingHeader()}
   <div class="landing-hero">
-    ${renderLandingEmblem()}
-    <div class="landing-hero-tagline">${t('subtitle')}</div>
+    <img class="landing-hero-banner" src="assets/images/landing-hero.webp" alt="Zhaimer - The Game of Hidden Strategy" />
   </div>
   ${renderPublicPlayerCount()}
   <div class="setup-card landing-card">
