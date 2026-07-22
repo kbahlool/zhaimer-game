@@ -1,17 +1,78 @@
-Copyright (c) 2026 Khalid Bahlool
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhaimer</title>
 
-All Rights Reserved.
+    <meta http-equiv="refresh" content="3; url=https://zhaimer.com/">
 
-This repository, including but not limited to its source code, game design,
-graphics, audio, and text (the "Zhaimer" memory card game and all associated
-files), is the exclusive property of the copyright holder named above.
+    <script>
+        setTimeout(function () {
+            window.location.href = "https://zhaimer.com/";
+        }, 3000);
+    </script>
 
-No part of this repository may be copied, modified, merged, published,
-distributed, sublicensed, sold, or used to create derivative works, in
-whole or in part, without the prior express written permission of the
-copyright holder.
+    <style>
+        body{
+            font-family:Arial,Helvetica,sans-serif;
+            background:#0b1220;
+            color:white;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+            margin:0;
+            text-align:center;
+        }
 
-Viewing or forking this code on GitHub does not grant any license, right,
-or permission to use, copy, distribute, or create derivative works from it.
+        .box{
+            max-width:650px;
+            padding:40px;
+        }
 
-For licensing inquiries, contact: labgameskmb@gmail.com
+        h1{
+            font-size:42px;
+            margin-bottom:15px;
+        }
+
+        p{
+            font-size:20px;
+            line-height:1.7;
+        }
+
+        a{
+            color:#FFD700;
+            text-decoration:none;
+            font-weight:bold;
+            font-size:22px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="box">
+
+<h1>🎮 Zhaimer has moved!</h1>
+
+<p>
+Welcome to the official Zhaimer website.
+</p>
+
+<p>
+You will be redirected automatically in a few seconds.
+</p>
+
+<p>
+If the redirect doesn't work, click below:
+</p>
+
+<p>
+<a href="https://zhaimer.com/">https://zhaimer.com</a>
+</p>
+
+</div>
+
+</body>
+</html>
